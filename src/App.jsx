@@ -2,17 +2,19 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen bg-zinc-950 text-white">
+      
       <Navbar />
 
-      <main id="home" className="min-h-screen bg-zinc-950 pt-20">
-        <div className="flex min-h-screen items-center justify-center">
-          <h1 className="text-4xl font-bold text-white">
+      <main id="home" className="pt-20">
+        <section className="min-h-screen flex items-center justify-center">
+          <h1 className="text-5xl font-bold text-lime-400">
             Rajesh's Portfolio
           </h1>
-        </div>
+        </section>
       </main>
-    </>
+
+    </div>
   );
 }
 
