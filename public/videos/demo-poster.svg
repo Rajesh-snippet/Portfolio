@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0b0d10"/>
+  <circle cx="800" cy="450" r="150" fill="none" stroke="#b6f36a" stroke-opacity=".25"/>
+  <circle cx="800" cy="450" r="90" fill="#b6f36a" fill-opacity=".08" stroke="#b6f36a" stroke-opacity=".45"/>
+  <path d="M770 400 L770 500 L860 450 Z" fill="#b6f36a"/>
+  <text x="800" y="640" text-anchor="middle" fill="#b6f36a" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">PROJECT DEMO</text>
+</svg>
