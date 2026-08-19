@@ -727,3 +727,90 @@ a {
     align-items: flex-start;
   }
 }
+
+/* ---------------------------------------------------
+   Mobile layout fixes
+--------------------------------------------------- */
+@media (max-width: 640px) {
+
+  .container {
+    padding: 0 20px;
+  }
+
+  /* Navbar */
+  .navbar-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 10px 14px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 50px 0 40px;
+  }
+
+  .hero-top {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-text {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .hero-name {
+    font-size: clamp(38px, 11vw, 52px);
+    word-break: normal;
+  }
+
+  .hero-tagline {
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .hero-role {
+    margin-left: 0;
+    font-size: 32px;
+  }
+
+  /* Sections */
+  .section-head,
+  .skills-wrap,
+  .project-grid,
+  .edu-card,
+  .contact-card {
+    margin-left: 0;
+  }
+
+  /* About */
+  .about-card {
+    margin-left: 0;
+    max-width: 100%;
+    padding: 24px;
+  }
+
+  /* Projects */
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Education */
+  .edu-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Contact */
+  .contact-card {
+    width: 100%;
+  }
+}
