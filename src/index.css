@@ -731,6 +731,7 @@ a {
 /* ---------------------------------------------------
    Mobile layout fixes
 --------------------------------------------------- */
+
 @media (max-width: 640px) {
 
   .container {
@@ -757,8 +758,10 @@ a {
 
   .hero-top {
     margin-left: 0;
+    margin-right: 0;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
   }
 
   .hero-text {
