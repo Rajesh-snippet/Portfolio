@@ -809,11 +809,12 @@ a {
   /* Education */
   .edu-card {
     width: 100%;
-    padding: 20px;
+    padding: 20px;  
   }
 
   /* Contact */
   .contact-card {
     width: 100%;
+    margin-top: 30px;
   }
 }
