@@ -757,11 +757,11 @@ a {
   }
 
   .hero-top {
-    margin-left: 0;
+    margin-left: 25px;
     margin-right: 0;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
+    width: calc(100% - 25px);
   }
 
   .hero-text {
