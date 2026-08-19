@@ -3,7 +3,7 @@ export default function About() {
     <section className="section container" id="about">
       <div className="section-head">
         <span className="eyebrow">01 — About</span>
-        <h2 className="section-title">Who I am</h2>
+        <h2 className="section-title">Who am I</h2>
       </div>
       <p className="about-card">
 7th-sem engineering student <a href="https://www.jecassam.ac.in/" target="_blank" rel="noopener noreferrer" className="highlight">@ JEC</a>,        diving headfirst into{' '}

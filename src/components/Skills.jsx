@@ -5,7 +5,7 @@ export default function Skills() {
     <section className="section container" id="skills">
       <div className="section-head">
         <span className="eyebrow">02 — Skills</span>
-        <h2 className="section-title">Tools I reach for</h2>
+        <h2 className="section-title">Skills</h2>
       </div>
       <div className="skills-wrap">
         {skills.map((s) => (
