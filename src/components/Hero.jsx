@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 export default function Hero() {
-  const roles = ['AI Engineer', 'AI Software Developer', 'AI/ML Engineer']
+  const roles = ['AI Engineer', 'AI Developer', 'AI/ML Engineer']
   const [roleIndex, setRoleIndex] = useState(0)
 
   useEffect(() => {
