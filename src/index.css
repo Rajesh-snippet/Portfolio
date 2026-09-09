@@ -371,6 +371,12 @@ a {
   margin-top: 36px;
 }
 
+@media (max-width: 720px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .project-card {
   background: var(--card);
   border: 1px solid var(--line);
