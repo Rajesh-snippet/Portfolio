@@ -59,7 +59,9 @@ export default function ProjectCard({ project }) {
   <img
     src={theme === 'agro'
       ? '/assets/agrofarmer.png'
-      : '/assets/researchflow.png'
+      : theme === 'research'
+      ? '/assets/researchflow.png'
+      : '/assets/evalloop.png'
     }
     alt={title}
   />
